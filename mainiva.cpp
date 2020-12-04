@@ -8,11 +8,11 @@ int main(int argc, char** argv) {
 	std::cin >>vventas;
 	std::cout << "Digite el Valor de Compras con IVA $";
 	std::cin >>vcompras;
-	std::cout <<"Cliente:  Cliente 1 ==>";
-	std::cout <<"==>Valor de Ventas con IVA $" <<vventas;
-	std::cout <<"==>Valor de Compras con IVA $" <<vcompras;
-	std::cout <<"==>Valor de IVA Ventas $" <<(vventas*16)/100;
-	std::cout <<"==>Valor de IVA Ventas $" <<(vcompras*16)/100;
-	std::cout <<"==>Valor a pagar IVA $" <<((vventas*16)/100)-((vcompras*16)/100);
+	std::cout <<"Cliente:  Cliente 1\n";
+	std::cout <<"Valor de Ventas con IVA $" <<vventas <<"\n";
+	std::cout <<"Valor de Compras con IVA $" <<vcompras <<"\n" ;
+	std::cout <<"Valor de IVA Ventas $" <<(vventas*15.97)/100 <<"\n";
+	std::cout <<"Valor de IVA Ventas $" <<(vcompras*15.97)/100 <<"\n";
+	std::cout <<"Valor a pagar IVA $" <<((vventas*15.97)/100)-((vcompras*15.97)/100);
 	return 0;
 }
